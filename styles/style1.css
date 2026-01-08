@@ -3,8 +3,9 @@ body{
     padding: 0px;
 }
 #nav-bar {
-    background-color:#eb6833 ;
-    border:1px solid black;
+    background-color:#FFFFFF ;
+    /* border:1px solid black; */
+    margin: 0px;
     height: 92px;
     width: 1600px;
     display: flex;
@@ -41,6 +42,89 @@ img{
     margin: 24px 120px;
 }
 
+/* for section below-nav */
+#below-nav{
+    /* border:1px solid green; */
+    margin: 0px;    
+    height: 674px;
+    width: 1600px;
+    background-image: url("../media/hero-bg.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-of-below-nav{
+    border:1px solid purple;
+    width: 1360px;
+    height: 450px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    gap:2px;
+    /* text-align: center; */
+}
 
+.all-of-below-nav #early-access{
+    border:1px solid blue;
+    background: #FFFFFF;
+    height: 35px;
+    width: 229px;
+    color: #469165;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 5px;
 
+    
+ }
+.hero-h2{
+    border:1px solid red;
+    height: 195px;px;
+    width: 1360px;
+    margin-bottom: 0px;
+}
+#structure-thinking{
+    color:#FFFFFF;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
 
+}
+#not-just{
+    color:#30B868;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.small-writing{
+    border: 1px solid black;
+    margin-top: 16px;
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+.two-btn{
+    height: 52px;
+    width: 600px;
+    }
+#btn-start{
+    background-color: #30B868;
+    font-size: 16px;
+    height:52px;
+    width:251px;
+
+}
+#See-How{
+    background: transparent;
+    height: 52px;
+    width: 251px;
+    color: #FFFFFF;
+}
+
+ 
