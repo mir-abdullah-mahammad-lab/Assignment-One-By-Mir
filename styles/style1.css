@@ -81,7 +81,7 @@ img{
  }
 .hero-h2{
     /* border:1px solid red; */
-    height: 195px;px;
+    height: 195px;
     width: 1360px;
     margin-bottom: 0px;
 }
@@ -127,6 +127,88 @@ img{
     width: 251px;
     color: #FFFFFF;
     font-size: 16px;
+}
+
+.section2{
+    /* border: 1px solid green; */
+    background-color: #FFFFFF;
+    height: 448px;
+    width: 1600px;
+    margin: 0px;
+    /* overflow: visible; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    
+}
+
+.section2 #Note-Dont-Fail{
+    /* background-color: lightcoral; */
+    height: 152px;
+    width: 1360px;
+    text-align: center;
+}
+
+#cards-of-notes{
+    background-color: #FFFFFF;
+    height: 300px;
+    width: 1360px;
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#Notes{
+    color: #001931;
+     font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+#YouAreNotBad{
+    color: #627382;
+    margin-bottom: 0px;
+    padding: top 8px;
+}
+.cards-of-notes{
+    display: flex;
+    gap: 5px;
+
+  
+}
+.card {
+    /* border: 1px solid lightgreen; */
+    height: 300px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    text-align: center;
+    box-shadow: 2px 3px black;
+
+    
+    
+}
+.card img{
+    
+    border-radius: 50%;
+    background-color: #F95555;
+    height: 60px;
+    width: 60px;
+    margin-bottom: 0px;
+}
+.card p{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    margin:0px;
+}
+.m{
+    margin-top: 0px;
+    font-size: 2em;
 }
 
 
