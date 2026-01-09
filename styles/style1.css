@@ -1,6 +1,9 @@
 body{
     margin:0px;
     padding: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    
 }
 #nav-bar {
     background-color:#FFFFFF ;
@@ -10,8 +13,7 @@ body{
     width: 1600px;
     display: flex;
     justify-content:space-between;
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
+   
     
 }
 img{
@@ -38,7 +40,6 @@ img{
     height: 44px;
     width: 164px;
     font-size: 16px;
-    font-family: inter;
     margin: 24px 120px;
 }
 
@@ -76,8 +77,11 @@ img{
     text-align: center;
     border-radius: 20px;
     margin-bottom: 5px;
-
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+        
  }
 .hero-h2{
     /* border:1px solid red; */
@@ -110,16 +114,27 @@ img{
     font-family: "Open Sans", sans-serif;
     text-align: center;
 }
+#smallWriting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#early-access{
+    margin-top: 2px;
+margin-bottom: 0px;
+}
+
 #dot{
   border-radius: 50%;
   color: #22c55e;
   background-color: #30B868;
-  box-shadow: 0 0 0 1px #22c55e;
+  box-shadow: 0 0 0 5px #94eab4;
+  
 
   
 }
-#early-access{margin-top: 2px;
-margin-bottom: 0px;}
+
 .two-btn{
     height: 52px;
     width: 600px;
@@ -129,6 +144,7 @@ margin-bottom: 0px;}
     font-size: 16px;
     height:52px;
     width:251px;
+    color:white;
 
 }
 #See-How{
@@ -294,4 +310,115 @@ margin-bottom: 0px;}
     background: #469165;
     color: white;
     font-size: 12px;
+}
+.second-last{
+    /* border: 1px solid peru; */
+    height: 506px;
+    width: 1600px;   
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+.insideBox{
+    /* border:1px solid red; */
+    margin-top:0px;
+    height:384px;
+    width: 1360px;
+    background: #F7F6F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#big-bold{
+    color: #001931;
+    font-size: 40px;
+    margin:0px;
+
+}
+
+#small-sents{
+    text-align: center;
+    color: #627382;
+    margin-bottom: 10px;
+}
+
+#join-tousand{
+    /* border: 1px solid green; */
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+#start-free{
+    /* border: 1px solid red; */
+    margin:0px;
+    font-size:16px;
+}
+
+#last-btn{
+    background-color: #469165;
+    height: 44px;
+    width: 164px;
+    font-size: 16px;
+    color: white;
+}
+#btnandline{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:0px;
+
+
+}
+
+.foot{
+    border: 1px solid black;
+    height: 384px;
+    width: 1600px;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:80px;
+    background: #001931;
+
+}
+#logoAndicon{
+    /* border:1px solid lightcoral; */
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    width: 1360px;
+    margin-top:120px;
+    margin-bottom: 45px;
+
+
+}
+#footlogo{
+    margin: 0px;
+}
+.iconAndtext p{
+    margin-top:0px;
+    color:white;
+}
+#lastDiv{
+    /* border:1px solid green; */
+    width: 1360px;
+    height: 54px;
+    margin: 5px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+
+}
+#lastDiv p{
+    margin-top:25px;
+    margin-bottom: 2px;
+    font-size: 16px;
 }
