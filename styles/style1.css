@@ -110,6 +110,16 @@ img{
     font-family: "Open Sans", sans-serif;
     text-align: center;
 }
+#dot{
+  border-radius: 50%;
+  color: #22c55e;
+  background-color: #30B868;
+  box-shadow: 0 0 0 1px #22c55e; /* light green ring */
+
+  
+}
+#early-access{margin-top: 2px;
+margin-bottom: 0px;}
 .two-btn{
     height: 52px;
     width: 600px;
