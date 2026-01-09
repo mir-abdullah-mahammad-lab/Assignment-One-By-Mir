@@ -282,4 +282,6 @@ img{
 #t1, #t2, #t3, #t4{
     border-radius: 50%;
     background: #469165;
+    color: white;
+    font-size: 12px;
 }
